@@ -18,6 +18,10 @@
         url: "/about",
         templateUrl: "js/about.html"
       })
+      .state("work", {
+        url: "/work",
+        templateUrl: "js/work.html"
+      })
       .state("contact", {
         url: "/contact",
         templateUrl: "js/contact.html"

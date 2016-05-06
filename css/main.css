@@ -1,13 +1,41 @@
-*,
-html,
-body {
-  box-sizing: border-box;
-  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: jaapokki;
+  src: url(jaapokki.otf);
 }
 
-body {
-  font-size: 14px;
-  padding: 50px;
+main {
+  padding: 30px;
 }
 
-a { color: #00B7FF; }
+.navbar-brand {
+  font-family: jaapokki;
+  font-size: 60px;
+  color: black;
+}
+
+.navbar {
+  font-size: 20px;
+  padding: 20px 10px 10px 10px;
+}
+
+#about-content,
+#work-content,
+#contact-content {
+  font-size: 18px;
+  margin: 0 15%;
+}
+
+#contact-address,
+#work-list {
+  list-style: none;
+}
+
+#contact-left {
+  float: left;
+  list-style: none;
+}
+
+#contact-right {
+  float: right;
+  list-style: none;
+}
